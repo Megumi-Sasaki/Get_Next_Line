@@ -6,7 +6,7 @@
 /*   By: mesasaki <mesasaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 22:59:19 by mesasaki          #+#    #+#             */
-/*   Updated: 2025/01/13 17:45:48 by mesasaki         ###   ########.fr       */
+/*   Updated: 2025/01/18 16:16:02 by mesasaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,11 @@ char	*ft_strjoin(char *s1, char *s2)
 	result[ft_strlen(s1) + ft_strlen(s2)] = '\0';
 	return (result);
 }
-char	*ft_strdup(const char *string) //ある文字列をそのままコピーする
+char	*ft_strdup(const char *string)
 {
-	char *dst;
-	size_t len;
-	size_t i;
+	char	*dst;
+	size_t	len;
+	size_t	i;
 
 	i = 0;
 	len = ft_strlen(string);
