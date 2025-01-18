@@ -6,11 +6,11 @@
 /*   By: mesasaki <mesasaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 14:57:20 by mesasaki          #+#    #+#             */
-/*   Updated: 2025/01/18 16:14:51 by mesasaki         ###   ########.fr       */
+/*   Updated: 2025/01/18 16:51:40 by mesasaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "getnextline.h"
+#include "get_next_line.h"
 
 char	*read_joint(int fd, char *handOver);
 char	*get_line_from_handOver(char **handOver);
