@@ -2,7 +2,6 @@
 # define GET_NEXT_LINE_H
 #endif
 
-#include <bits/posix1_lim.h>
 #include <fcntl.h>
 #include <limits.h>
 #include <stdarg.h>

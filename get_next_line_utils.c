@@ -6,11 +6,11 @@
 /*   By: mesasaki <mesasaki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/12 22:59:19 by mesasaki          #+#    #+#             */
-/*   Updated: 2025/01/18 16:16:02 by mesasaki         ###   ########.fr       */
+/*   Updated: 2025/01/18 16:49:41 by mesasaki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "getnextline.h"
+#include "get_next_line.h"
 
 char	*ft_strchr(const char *s, int c);
 void	*ft_memcpy(void *dst, const void *src, size_t len);
